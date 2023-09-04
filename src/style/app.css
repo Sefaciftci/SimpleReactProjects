@@ -1,0 +1,5 @@
+.container {
+    display: flex;
+    align-items: center; /* Dikey olarak ortala */
+    justify-content: center; /* Yatay olarak ortala */
+}

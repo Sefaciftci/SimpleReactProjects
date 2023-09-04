@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.cardBody{
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+.cardBody p{
+    font-size: 17px;
+}
+.cardBody button{
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(238, 20, 20);
+    color: #fff;
+}

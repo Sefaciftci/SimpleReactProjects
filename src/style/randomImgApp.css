@@ -1,0 +1,15 @@
+.container {
+    margin-top: 150px;
+}
+.randomImg{
+    width: 500px;
+    height: auto;
+}
+.changeBtn{
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: teal;
+    color: white;
+}

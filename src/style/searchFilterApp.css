@@ -1,0 +1,19 @@
+.searchDiv{
+    margin-bottom: 50px;
+}
+.searchDiv input{
+    font-size: 22px;
+    border-radius:5px;
+}
+.filterDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.filterCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

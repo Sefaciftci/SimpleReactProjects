@@ -1,0 +1,6 @@
+.container{
+    flex-direction: column;
+}
+.randomBtn{
+    margin: 20px;
+}

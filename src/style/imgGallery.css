@@ -1,0 +1,22 @@
+img{
+    border-radius: 20px;
+}
+.container {
+    margin-top: 40px;
+}
+.selectedImg{
+    width: 500px;
+    height: auto;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.imgBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagesStyle{
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    background-size: cover;
+}

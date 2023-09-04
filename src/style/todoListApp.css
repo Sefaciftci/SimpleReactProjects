@@ -1,0 +1,47 @@
+.container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.container h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.inputDiv input {
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.inputDiv button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: green;
+    color: white;
+    margin-left: 5px;
+}
+.itemDiv{
+    font-size: 35px;
+    margin: 5px;
+}
+.itemsLu{
+    list-style: none;
+    
+}
+.itemsLi{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration:none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.itemDeleteBtn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    margin-left: 15px;
+}
