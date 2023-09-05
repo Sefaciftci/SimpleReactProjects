@@ -6,6 +6,7 @@ import TodoListApp from './Componenets/TodoListApp';
 import RandomImgApp from './Componenets/RandomImgApp';
 import CardApp from './Componenets/CardApp';
 import SearchFilterApp from './Componenets/SearchFilterApp';
+import QuizApp from './Componenets/QuizApp';
 
 function App() {
   return (
@@ -34,6 +35,10 @@ function App() {
 
       <div className='searchFilterApp'>
         <SearchFilterApp/>
+      </div>
+
+      <div className='quizApp'>
+        <QuizApp/>
       </div>
       
     </div>
