@@ -7,6 +7,7 @@ import RandomImgApp from './Componenets/RandomImgApp';
 import CardApp from './Componenets/CardApp';
 import SearchFilterApp from './Componenets/SearchFilterApp';
 import QuizApp from './Componenets/QuizApp';
+import RandomColor from './Componenets/randomColor';
 
 function App() {
   return (
@@ -37,8 +38,8 @@ function App() {
         <SearchFilterApp/>
       </div>
 
-      <div className='quizApp'>
-        <QuizApp/>
+      <div className='randomColor'>
+        <RandomColor/>
       </div>
       
     </div>
