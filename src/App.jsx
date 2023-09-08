@@ -8,6 +8,7 @@ import CardApp from './Componenets/CardApp';
 import SearchFilterApp from './Componenets/SearchFilterApp';
 import QuizApp from './Componenets/QuizApp';
 import RandomColor from './Componenets/randomColor';
+import PaginationApp from './Componenets/PaginationApp';
 
 function App() {
   return (
@@ -40,6 +41,10 @@ function App() {
 
       <div className='randomColor'>
         <RandomColor/>
+      </div>
+
+      <div className='paginationApp'>
+        <PaginationApp/>
       </div>
       
     </div>
