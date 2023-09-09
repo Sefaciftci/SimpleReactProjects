@@ -1,0 +1,28 @@
+.usersContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.usersDiv{
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.userBtn{
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+}
