@@ -61,6 +61,7 @@ const PaginationApp = () => {
 
     return(
         <div className="container">
+            <h1>Pagination App</h1>
            <div className="usersContainer"> 
             {usersData.slice(0,visiable).map((user,index)=>{
                 return  <div className="usersDiv" key={index}>
